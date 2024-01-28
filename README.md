@@ -3,7 +3,7 @@
 - [CODING CHALLENGES | Honing Python Skills](#coding-challenges--honing-python-skills)
   - [The Challenges:](#the-challenges)
     - [1. Building Your Own Cat-Tool](#1-building-your-own-cat-tool)
-    - [what is click? (quick summary)](#what-is-click-quick-summary)
+      - [what is click? (quick summary)](#what-is-click-quick-summary)
 
 Here I will be completing coding challenges set by John Crickett.
 
@@ -20,7 +20,7 @@ This challenge is to build your own version of the Unix Command line tool **cat*
 
 Originally, I began with argparse. However, through recommendation I am now using [Click](https://click.palletsprojects.com/en/8.1.x/). 
 
-### what is click? (quick summary)
+#### what is click? (quick summary)
 >Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It’s the “Command Line Interface Creation Kit”. It’s highly configurable but comes with sensible defaults out of the box. It aims to make the process of writing command line tools quick and fun while also preventing any frustration caused by the inability to implement an intended CLI API.
 
 
