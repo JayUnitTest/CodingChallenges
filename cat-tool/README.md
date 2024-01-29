@@ -10,11 +10,11 @@ Originally, I began with argparse. However, through recommendation I am now usin
 
 #### Progress
 
-0.  Step Zero completed - test files received to test solution with.
-1.  Step 1 completed - open specific file on the command line and write its contents to standard out.
-2.  Step 2 completed - Can read the input from standard in.
+0.  Step Zero completed - Test files received to test solution with.
+1.  Step 1 completed - Open specific file on the command line and write its contents to standard out.
+2.  Step 2 completed - Reads input from standard in 
 3.  Step 3 completed - Can concatenate files
-4.  Step 4 completed - number the lines as they’re printed out
+4.  Step 4 completed - Number the lines as they’re printed out
 5.  Step 5 Completed - Number lines but exclude blank lines from being numbered in output
 
 ## How to Use the Cat Tool
@@ -88,7 +88,7 @@ Output:
 ```
 
 ```bash
-head -n1 test.txt | python cccat.py
+head -n1 test.txt | python cccat.py -
 ```
 
 Output:
@@ -155,6 +155,9 @@ Output:
 ## What I learned during this challenge:
 
 This is the first time I've built my own version of the Unix command-line tool cat, so there were, of course, many learning experiences:
+
+**Misunderstanding and misreading**: I missed out a lot of information by not correctly reading the challenge and missed out a section. I forgot to include if a file is a single dash ('-) or absent 
+cat would read from standard input. This was remedied but my initial solution was completely as the challenge was outlining. I will ensure to have better understanding of the challenge going ahead. 
 
 **Click**: Click was entirely new to me. Prior to this, I had only partially worked with argparse, and even then, it wasn't extensive. Click was quite intuitive to use once I got past my self-conflicted confusion.
 
