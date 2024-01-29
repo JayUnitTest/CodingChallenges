@@ -12,4 +12,4 @@ I aim to use these challenges to progress my skills in Python.
 To get more information on the challenges, click [here](https://codingchallenges.fyi/challenges/intro/)
 
 ## The Challenges:
-* Build your Own [Cat-tool](cat-tool/README.md)
+* Build your Own [Cat-tool](https://github.com/JayUnitTest/CodingChallenges/tree/main/cat-tool)
