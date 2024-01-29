@@ -15,11 +15,19 @@ def read_file(filenames):
 @click.command()
 @click.argument('filenames', nargs=-1, type=click.Path(exists=True))
 @click.option("-n", "number_lines", is_flag=True, help="Number the lines outputted to the console")
-def cc_cat(filenames, number_lines):
+@click.option("-b", "exclude_blank_lines", is_flag=True, help= "Number lines but exclude blank lines being numbered in output.")
+def cc_cat(filenames, number_lines, exclude_blank_lines):
+     
     lines = read_file(filenames)
     if number_lines:
         for i, line in enumerate(lines, start=1):
             click.echo(f"{i}: {line.strip()}")
+    elif exclude_blank_lines:
+        for i, line in enumerate(lines, start=1):
+            if line.strip() == "":
+                click.echo("")
+            else:
+                click.echo(f"{i}: {line.strip()}")
     else:
         for line in lines:
             click.echo(line.strip())
