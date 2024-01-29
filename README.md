@@ -115,7 +115,6 @@ head -n1 test.txt | python cccat.py
 Output:
 
 ```
-
 "Your heart is the size of an ocean. Go find yourself in its hidden depths."
 ```
 
