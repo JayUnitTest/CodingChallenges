@@ -50,10 +50,10 @@ A virtual environment was used for this project as recommended. This solves the 
    git clone https://github.com/JayUnitTest/CodingChallenges.git
    ```
 
-2. **Navigate to the Cat_Tool Project**:
+2. **Navigate into the cat-tool Project**:
 
    ```bash
-   cd codingchallenges.fyi/cat-tool
+   cd codingchallenges/cat-tool
    ```
 
 3. **Create a Virtual Environment**:
@@ -68,7 +68,7 @@ A virtual environment was used for this project as recommended. This solves the 
    source venv/bin/activate
    ```
 
-5. install dependencies
+5. **Install dependencies**:
 
    ```bash
    pip install click
