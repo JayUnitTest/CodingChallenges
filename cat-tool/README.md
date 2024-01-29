@@ -157,7 +157,7 @@ Output:
 This is the first time I've built my own version of the Unix command-line tool cat, so there were, of course, many learning experiences:
 
 **Misunderstanding and misreading**: I missed out a lot of information by not correctly reading the challenge and missed out a section. I forgot to include if a file is a single dash ('-) or absent 
-cat would read from standard input. This was remedied but my initial solution was completely as the challenge was outlining. I will ensure to have better understanding of the challenge going ahead. 
+cat would read from standard input. This was remedied but my initial solution was not completely as the challenge was outlining. I will ensure to have better understanding of the challenge going ahead. 
 
 **Click**: Click was entirely new to me. Prior to this, I had only partially worked with argparse, and even then, it wasn't extensive. Click was quite intuitive to use once I got past my self-conflicted confusion.
 
