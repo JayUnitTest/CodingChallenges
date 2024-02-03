@@ -1,0 +1,10 @@
+Servers:
+- server: 1
+  host: 127.0.0.1
+  port: '8080'
+- server: 2
+  host: 127.0.0.1
+  port: '8081'
+- server: 3
+  host: 127.0.0.1
+  port: '8082'

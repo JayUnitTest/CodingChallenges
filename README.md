@@ -12,4 +12,5 @@ I aim to use these challenges to progress my skills in Python.
 To get more information on the challenges, click [here](https://codingchallenges.fyi/challenges/intro/)
 
 ## The Challenges:
-* Build your Own [Cat-tool](https://github.com/JayUnitTest/CodingChallenges/tree/main/cat-tool)
+* Build your own [Cat-tool](https://github.com/JayUnitTest/CodingChallenges/tree/main/cat-tool)
+* Build your own [load-balancer](https://github.com/JayUnitTest/CodingChallenges/tree/main/load-balancer)
