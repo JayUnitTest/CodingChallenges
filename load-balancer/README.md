@@ -41,12 +41,12 @@ curl localhost
 
 Here is an example of it running through chrome. As you can see it cycles through each of the ports. 
 
-![](localhostgif.gif)
+![](assets/localhostgif.gif)
 
 
 Through the terminal: 
 
-![](terminalhostgif.gif)
+![](assets/terminalhostgif.gif)
 
 Basic Load balancer implemented! (steps 0 - 2 completed)
 
